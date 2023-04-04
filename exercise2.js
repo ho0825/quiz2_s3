@@ -10,7 +10,6 @@ let dbmongoUsers = [
         password : 12345,
         name : "KHOO",
         email : "khoo@utem.student.edu.my"
-
     }
 ]
 
