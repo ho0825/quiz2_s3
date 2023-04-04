@@ -27,6 +27,20 @@ function login(reqUsername, reqPassword){
 
 }
 
+function signup(reqUsername, reqPassword, reqName, reqEmail){
+    dbmongoUsers.push({
+        username : reqUsername,
+        password : reqPassword,
+        name : reqName,
+        email : reqEmail,
+    })
 
-//login("khoo", "password")
+}
+
+signup("tan", 1212, "TAN", "tan@utem.student.edu.my")
+
+
+//try to log in
 console.log(login("ho", "1234"))
+console.log(login("tan", "1212"))
+
