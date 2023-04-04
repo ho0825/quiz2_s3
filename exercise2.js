@@ -24,7 +24,6 @@ function login(reqUsername, reqPassword){
     else {
         return "Invalid password!"
     }
-    //console.log(matchpass)
 
 }
 
